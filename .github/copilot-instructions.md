@@ -1,5 +1,10 @@
 ---
-description: Authoritative AI assistant instructions for this repo (React + Vite + Tailwind + Zustand landing page)
+description: AI rules derived by SpecStory from the project AI interaction history
+globs: *
+---
+
+---
+description: Authoritative AI assistant instructions for this repo (React + Vite + Tailwind v4 + Zustand landing page)
 globs: *
 ---
 
@@ -7,7 +12,7 @@ globs: *
 
 ## 1. Purpose & Architecture
 
-Single‑page marketing/landing site (no routing, no backend) built with Vite + React 18 + TypeScript + Tailwind v4 design tokens. Entry: `index.html` -> `src/main.tsx` -> `src/App.tsx`. Layout wrapper (`components/Layout.tsx`) injects `<Navbar/>`, `<Footer/>`, sets `document.title` via prop. Sections (Hero, Brands, Services, AboutUs, Pricing, CTA, Numbers) are pure presentational components.
+Single‑page marketing/landing site (no routing, no backend) built with Vite + React 18 + TypeScript + Tailwind v4 design tokens. Entry: `index.html` -> `src/main.tsx` -> `src/App.tsx`. Layout wrapper (`components/Layout.tsx`) injects `<Navbar/>`, `<Footer/>`, sets `document.title` via prop. Sections (Hero, Brands, Services, AboutUs, Pricing, CTA, Numbers, Testimonials) are pure presentational components.
 
 ## 2. Build & Run
 
@@ -23,7 +28,7 @@ Only global state: theme (`useThemeStore` in `src/store/ThemeStore.ts`) using Zu
 
 ## 5. Components & Patterns
 
-All components are function components in TypeScript; simple prop interfaces near top of file. Shared primitives under `components/shared/` (Button, BtnLink, Container, Paragraph, Title, NavItem). Cards under `components/cards/`. Data‑driven sections map over arrays in `src/utils/` (`pricingPlans`, `services`). Keep new presentational data lists in `utils/` with simple POJO arrays.
+All components are function components in TypeScript; simple prop interfaces near top of file. Shared primitives under `components/shared/` (Button, BtnLink, Container, Paragraph, Title, NavItem). Cards under `components/cards/`. Data‑driven sections map over arrays in `src/utils/` (`pricingPlans`, `services`, `testimonials-data.ts`). Keep new presentational data lists in `utils/` with simple POJO arrays.
 
 ## 6. Assets
 
@@ -66,3 +71,13 @@ Feedback welcome: clarify areas (e.g., planned mobile menu logic, accessibility 
 - Use Prompt Booster MCP to enhance prompt quality and improve user prompts to fit copilot input best practices
 - Apply SpecStory AI rules for consistent code generation
 - Reference project documentation and context system
+
+### Project-Specific Guidelines
+- When rebranding, update the `index.html` title, favicon, meta tags, and theme colors. Also, update the brand name in `App.tsx`, `Navbar.tsx`, and `Footer.tsx`.
+- When adding a new section, create the component under `components/sections/`, export the named component, and insert it into the `App.tsx` sequence. Update `navItems` in `Navbar.tsx` if the section is navigable.
+- When modifying the footer, use a structured multi-column layout with contact info and groups (Contact, Services, Company, Follow Us). Include contact links (tel:, mailto:), anchor links for About/Pricing/Contact and social placeholders.
+- When including social media links, use Facebook and LinkedIn with SVG icons, accessible labels, and external link safety attributes.
+- Deactivate a section by commenting it out in `App.tsx` to prevent it from rendering.
+- When deactivating a section, comment out its import and JSX usage in `App.tsx` to prevent it from rendering, preserving the code for easy reactivation.
+- When deactivating the Numbers section, comment out its import and JSX usage in `Hero.tsx` to prevent it from rendering, preserving the code for easy reactivation.
+- Deactivate the email sending from the top hero section by commenting out the relevant code in `Hero.tsx`.
