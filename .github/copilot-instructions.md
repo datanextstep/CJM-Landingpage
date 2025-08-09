@@ -1,4 +1,9 @@
 ---
+description: AI rules derived by SpecStory from the project AI interaction history
+globs: *
+---
+
+---
 description: Authoritative AI assistant instructions for this repo (React + Vite + Tailwind + Zustand landing page)
 globs: *
 ---
@@ -7,7 +12,7 @@ globs: *
 
 ## 1. Purpose & Architecture
 
-Single‑page marketing/landing site (no routing, no backend) built with Vite + React 18 + TypeScript + Tailwind v4 design tokens. Entry: `index.html` -> `src/main.tsx` -> `src/App.tsx`. Layout wrapper (`components/Layout.tsx`) injects `<Navbar/>`, `<Footer/>`, sets `document.title` via prop. Sections (Hero, Brands, Services, AboutUs, Pricing, CTA, Numbers) are pure presentational components.
+Single‑page marketing/landing site (no routing, no backend) built with Vite + React 18 + TypeScript + Tailwind v4 design tokens. Entry: `index.html` -> `src/main.tsx` -> `src/App.tsx`. Layout wrapper (`components/Layout.tsx`) injects `<Navbar/>`, `<Footer/>`, sets `document.title` via prop. Sections (Hero, Brands, Services, AboutUs, Pricing, CTA, Numbers, Testimonials) are pure presentational components.
 
 ## 2. Build & Run
 
