@@ -422,6 +422,50 @@ Use reasoning, and SequentialThinong MCP,
 
 _**Assistant**_
 
+Reading current Footer component to prepare structured footer update. Updating Footer component to structured multi-column layout with contact info and groups. 
+```
+
+```
+Implemented structured footer.
+
+Changes:
+- Replaced old nav duplication with four column groups: Contact, Services, Company, Follow Us.
+- Added French/English brand overview reflecting historic founding (concise).
+- Added dynamic copyright year.
+- Included contact links (tel:, mailto:), anchor links for About/Pricing/Contact.
+- Added social placeholders.
+
+No other files touched.
+
+Next optional improvements (pick any):
+1. Add schema.org LocalBusiness JSON-LD in index.html.
+2. Move long French historical overview to dedicated About section expansion.
+3. Add real social URLs & icons (SVG).
+4. Make footer columns collapsible on mobile (accordion).
+5. Add newsletter mini-form.
+
+Let me know which to tackle or any tweaks to wording / bilingual formatting.
+
+---
+
+_**User**_
+
+Add real social URLs & icons (SVG).
+
+we only want to keep Facebook and Linkedin for now for socialmedia 
+
+https://web.facebook.com/people/Ventilation-CJM/61573775603743/
+
+https://www.linkedin.com/company/ventilation-cjm
+
+---
+
+Use reasoning, and SequentialThinong MCP, 
+
+---
+
+_**Assistant**_
+
 
 
 ---
