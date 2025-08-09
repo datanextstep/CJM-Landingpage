@@ -532,7 +532,29 @@ keep it there but lets deactivate it and make it not appair for now.
 
 _**Assistant**_
 
-Reading current `Hero.tsx` to safely comment out Numbers import and usage. 
+Reading current `Hero.tsx` to safely comment out Numbers import and usage. Commenting out Numbers import and component usage to deactivate numbers section. 
+```
+
+```
+Deactivated the metrics (Numbers) section by commenting out its import and JSX in `Hero.tsx`; code remains for easy restoration.
+
+Want a feature flag or environment toggle instead of comments? Just say the word.
+
+---
+
+_**User**_
+
+deactivate the email sending from the top hero secion for now, 
+
+only deactivate the one i addached as imgae, it is at the frst hero when you frst open. 
+
+keep it there but lets deactivate it and make it not appair for now. 
+
+---
+
+_**Assistant**_
+
+
 
 ---
 

@@ -78,3 +78,6 @@ Feedback welcome: clarify areas (e.g., planned mobile menu logic, accessibility 
 - When modifying the footer, use a structured multi-column layout with contact info and groups (Contact, Services, Company, Follow Us). Include contact links (tel:, mailto:), anchor links for About/Pricing/Contact and social placeholders.
 - When including social media links, use Facebook and LinkedIn with SVG icons, accessible labels, and external link safety attributes.
 - Deactivate a section by commenting it out in `App.tsx` to prevent it from rendering.
+- When deactivating a section, comment out its import and JSX usage in `App.tsx` to prevent it from rendering, preserving the code for easy reactivation.
+- When deactivating the Numbers section, comment out its import and JSX usage in `Hero.tsx` to prevent it from rendering, preserving the code for easy reactivation.
+- Deactivate the email sending from the top hero section by commenting out the relevant code in `Hero.tsx`.
