@@ -9,9 +9,9 @@ export const Pricing = () => {
     <section id="pricing" className="py-5">
       {" "}
       <Container className="text-center">
-        <Title>Pricing </Title>
+        <Title>Service Packages </Title>
         <Paragraph className="mt-4">
-          Choose the plan that's right for your business.
+          Flexible maintenance & optimization packages for every system size.
         </Paragraph>
       </Container>
       <Container className="mt-12">

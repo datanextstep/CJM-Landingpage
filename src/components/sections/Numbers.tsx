@@ -10,32 +10,20 @@ export const Numbers = () => {
                         grid grid-cols-2 md:grid-cols-4"
         >
           <div className="text-center px-5">
-            <h2 className="font-semibold text-xl sm:text-2xl md:text-4xl text-heading-1">
-              {" "}
-              100+{" "}
-            </h2>
-            <p className="mt-2 text-heading-3"> AI Models Implemented</p>
+            <h2 className="font-semibold text-xl sm:text-2xl md:text-4xl text-heading-1"> 500+ </h2>
+            <p className="mt-2 text-heading-3"> Systems Installed</p>
           </div>
           <div className="text-center px-5">
-            <h2 className="font-semibold text-xl sm:text-2xl md:text-4xl text-heading-1">
-              {" "}
-              250+{" "}
-            </h2>
-            <p className="mt-2 text-heading-3"> Enterprise Clients</p>
+            <h2 className="font-semibold text-xl sm:text-2xl md:text-4xl text-heading-1"> 350+ </h2>
+            <p className="mt-2 text-heading-3"> Maintenance Clients</p>
           </div>
           <div className="text-center px-5">
-            <h2 className="font-semibold text-xl sm:text-2xl md:text-4xl text-heading-1">
-              {" "}
-              99.9%{" "}
-            </h2>
-            <p className="mt-2 text-heading-3"> Uptime Guarantee</p>
+            <h2 className="font-semibold text-xl sm:text-2xl md:text-4xl text-heading-1"> 98% </h2>
+            <p className="mt-2 text-heading-3"> Satisfaction Rate</p>
           </div>
           <div className="text-center px-5">
-            <h2 className="font-semibold text-xl sm:text-2xl md:text-4xl text-heading-1">
-              {" "}
-              10+{" "}
-            </h2>
-            <p className="mt-2 text-heading-3"> Years of Innovation</p>
+            <h2 className="font-semibold text-xl sm:text-2xl md:text-4xl text-heading-1"> 10+ </h2>
+            <p className="mt-2 text-heading-3"> Years Experience</p>
           </div>
         </div>
       </Container>

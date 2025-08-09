@@ -22,16 +22,15 @@ export const Hero = () => {
                         lg:max-w-none max-w-3xl mx-auto lg:mx-0 lg:flex-1 lg:w-1/2"
         >
           <h1 className="text-heading-1 text-3xl sm:text-4xl md:text-5xl xl:text-6xl font-bold">
-            Empower Your Business
-            <span className="text-transparent bg-clip-text bg-gradient-to-r from-blue-600 to-violet-600 ml-2">
-              with AI{" "}
+            Clean Air & Comfort
+            <span className="text-transparent bg-clip-text bg-gradient-to-r from-sky-600 to-cyan-600 ml-2">
+              For Your Space
             </span>
           </h1>
           <Paragraph className="mt-8">
-            Our AI SaaS platform seamlessly integrates with your existing
-            workflows to deliver real‑time insights, intelligent automation, and
-            data‑driven decision-making. Experience a future where your business
-            runs smarter, faster, and more efficiently.
+            Professional ventilation & HVAC solutions in Toronto. Installation, maintenance,
+            indoor air quality, ductwork & energy‑efficient upgrades that keep your home or business
+            healthy and efficient.
           </Paragraph>
           <div className="mt-10 w-full flex max-w-md mx-auto lg:mx-0">
             <div className="flex sm:flex-row flex-col gap-5 w-full">
@@ -62,11 +61,12 @@ export const Hero = () => {
                 </span>
                 <input
                   type="email"
-                  placeholder="johndoe@gmail.com"
+                  placeholder="email@example.com"
+                  aria-label="Email address"
                   className="w-full py-3 outline-none bg-transparent"
                 />
                 <Button className="min-w-max text-white">
-                  <span className="relative z-[5]">Get Started</span>
+                  <span className="relative z-[5]">Free Quote</span>
                 </Button>
               </form>
             </div>
