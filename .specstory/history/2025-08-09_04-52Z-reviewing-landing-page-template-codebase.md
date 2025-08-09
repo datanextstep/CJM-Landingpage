@@ -554,6 +554,28 @@ keep it there but lets deactivate it and make it not appair for now.
 
 _**Assistant**_
 
+Commenting out the email form block in `Hero.tsx` to hide it while keeping code for future use. 
+```
+
+```
+Removing now-unused Button import from `Hero.tsx` after form deactivation. 
+```
+
+```
+Email form in the Hero section has been deactivated (wrapped in a comment block) and the unused Button import removed to keep lint clean. Stats section was already deactivated earlier.
+
+Anything else to hide or refactor next (e.g., convert commented blocks to feature flags)? Let me know.
+
+---
+
+_**User**_
+
+one more bug, the get started button in the nav bar at top, the test is white when the site is in light mode which makes the text looks unvisible, (white on white) , it should be black text when the site on light mode, but in dark mode its corrently correct, (white on dark mode)
+
+---
+
+_**Assistant**_
+
 
 
 ---
