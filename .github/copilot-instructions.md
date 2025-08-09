@@ -4,7 +4,7 @@ globs: *
 ---
 
 ---
-description: Authoritative AI assistant instructions for this repo (React + Vite + Tailwind + Zustand landing page)
+description: Authoritative AI assistant instructions for this repo (React + Vite + Tailwind v4 + Zustand landing page)
 globs: *
 ---
 
@@ -28,7 +28,7 @@ Only global state: theme (`useThemeStore` in `src/store/ThemeStore.ts`) using Zu
 
 ## 5. Components & Patterns
 
-All components are function components in TypeScript; simple prop interfaces near top of file. Shared primitives under `components/shared/` (Button, BtnLink, Container, Paragraph, Title, NavItem). Cards under `components/cards/`. Data‑driven sections map over arrays in `src/utils/` (`pricingPlans`, `services`). Keep new presentational data lists in `utils/` with simple POJO arrays.
+All components are function components in TypeScript; simple prop interfaces near top of file. Shared primitives under `components/shared/` (Button, BtnLink, Container, Paragraph, Title, NavItem). Cards under `components/cards/`. Data‑driven sections map over arrays in `src/utils/` (`pricingPlans`, `services`, `testimonials-data.ts`). Keep new presentational data lists in `utils/` with simple POJO arrays.
 
 ## 6. Assets
 

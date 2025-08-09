@@ -351,6 +351,77 @@ Use reasoning, and SequentialThinong MCP,
 
 _**Assistant**_
 
+Adding testimonials data file, new Testimonials section component, and inserting it into App.tsx. Retrying creation of new testimonials data file. Adding Testimonials section component under sections. Retry creating Testimonials component file. Insert Testimonials section into `App.tsx` before CTA. 
+```
+
+```
+Added testimonials feature. Summary:
+
+Files added:
+- `testimonials-data.ts` (typed testimonials array)
+- `Testimonials.tsx` (new section component)
+
+Files updated:
+- `App.tsx` (imports and renders <Testimonials /> before CTA)
+
+Section intentionally has no nav anchor/id per your request.
+
+Next optional polish (tell me if you want them):
+- Add subtle quote icon / gradient accent
+- Responsive carousel on mobile
+- Schema.org Review markup
+- Fade-in animation
+
+Let me know if you’d like any of those or to proceed with footer restructuring.
+
+---
+
+_**User**_
+
+Footer: Replace nav duplication with structured groups (Contact, Services, Company, Follow Us) and contact details.
+
+
+Overview
+Fondé en 1986 par M. Jacques Levasseur sous le nom de Ferblanterie Dulev.  C’est dans un garage résidentiel que l’entreprise débuta ses activités.    L’entreprise ne comptait que 3 employés à l’époque.   Soit,  le 
+fondateur Jacques Levasseur, son frère Claude Levasseur et leur mère qui assurait le côté administratif.  À l’occasion venait prêter main forte un beau-frère.  
+
+Spécialisée dans la conception et la fabrication de conduit de ventilation, l’entreprise avait des contrats réguliers avec le centre de recherche en électrochimie de Shawinigan et  Gentilly 11.
+
+L’expertise unique de l’entreprise à permis à celle-ci de réaliser des projets d’envergures comme Le Radisson du Rive, la Réserve Navale (NCSM Radisson), des réfections importantes  à la Centrale Nucléaire de Gentilly, pour ne nommer que ceux-là.  Le nombre d’employé passa également de 3 en 1986 à 23 en 1990.
+
+C’est en 1994 que l’entreprise changea de nom pour Ventilation CJM.  Signifiant la première lettre des trois dirigeants de l’époque, soit Claude Levasseur, Jacques Levasseur (fondateur) et Marcel Levasseur.  
+
+En 1997, se greffa à l’équipe Mathieu Levasseur, fils du fondateur.  Celui-ci commença à travailler sur les chantiers et à la fabrication des conduits.  Ce qui lui permit d’acquérir une forte expérience dans le domaine de la ferblanterie et de la ventilation.  Par sa passion du métier et par sa détermination il devint ensuite contremaitre de chantier en 2002 et chargé de projet en 2005.  Son bagage de connaissance acquis au courant des années lui a permis de se démarquer pour la qualité de son travail.  
+
+C’est au décès du fondateur en 2012 que celui-ci décida de reprendre les reines de l’entreprise et devint l’actionnaire.
+
+Website
+http://www.ventilationcjm.com
+Industry
+Construction
+Company size
+11-50 employees
+2 associated members LinkedIn members who’ve listed Ventilation CJM as their current workplace on their profile.
+Headquarters
+Trois-Rivières, Québec
+Founded
+1986
+Specialties
+Ventilation and Fabrication
+Locations (1)
+Primary
+Ventilation CJM
+2535 Rue Charbonneau, Trois-Rivières, Québec G9A 5C9, CA
+
+
+---
+
+Use reasoning, and SequentialThinong MCP, 
+
+---
+
+_**Assistant**_
+
 
 
 ---
