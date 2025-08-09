@@ -1,7 +1,7 @@
 import { Button } from "../shared/Button";
 import { Container } from "../shared/Container";
 import { Paragraph } from "../shared/Paragraph";
-import { Numbers } from "./Numbers";
+// import { Numbers } from "./Numbers"; // Deactivated stats section
 
 export const Hero = () => {
   return (
@@ -83,7 +83,7 @@ export const Hero = () => {
           />
         </div>
       </Container>
-      <Numbers />
+  {/** <Numbers /> Deactivated: metrics section hidden */}
     </section>
   );
 };

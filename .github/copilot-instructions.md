@@ -71,3 +71,10 @@ Feedback welcome: clarify areas (e.g., planned mobile menu logic, accessibility 
 - Use Prompt Booster MCP to enhance prompt quality and improve user prompts to fit copilot input best practices
 - Apply SpecStory AI rules for consistent code generation
 - Reference project documentation and context system
+
+### Project-Specific Guidelines
+- When rebranding, update the `index.html` title, favicon, meta tags, and theme colors. Also, update the brand name in `App.tsx`, `Navbar.tsx`, and `Footer.tsx`.
+- When adding a new section, create the component under `components/sections/`, export the named component, and insert it into the `App.tsx` sequence. Update `navItems` in `Navbar.tsx` if the section is navigable.
+- When modifying the footer, use a structured multi-column layout with contact info and groups (Contact, Services, Company, Follow Us). Include contact links (tel:, mailto:), anchor links for About/Pricing/Contact and social placeholders.
+- When including social media links, use Facebook and LinkedIn with SVG icons, accessible labels, and external link safety attributes.
+- Deactivate a section by commenting it out in `App.tsx` to prevent it from rendering.

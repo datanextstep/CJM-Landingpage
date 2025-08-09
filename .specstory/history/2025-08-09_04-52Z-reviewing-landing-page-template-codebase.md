@@ -466,7 +466,73 @@ Use reasoning, and SequentialThinong MCP,
 
 _**Assistant**_
 
+Reading current Footer file to safely update social links with icons. Updating Footer social links to include only Facebook and LinkedIn with SVG icons and real URLs. 
+```
 
+```
+Added real social links (Facebook & LinkedIn) with inline SVG icons, accessible labels, external link safety attributes, and removed Twitter.
+
+Let me know if you’d like:
+- Hover color tweaks (e.g., brand-specific blue)
+- Open links with rel=\"me\" for verification
+- Replace inline SVGs with reusable shared icons
+- Add ARIA group role or analytics tracking
+
+Give me any preference and I’ll implement.
+
+---
+
+_**User**_
+
+deactivate the Trusted by Industry Leaders
+discord
+openai
+paypal
+slack
+spotify
+youtube
+
+section for now, 
+
+keep it there but lets deactivate it and make it not appair for now. 
+
+---
+
+_**Assistant**_
+
+Reading current `App.tsx` before applying the change to hide the Brands section. Commenting out the Brands import and usage to deactivate the section without deletion. 
+```
+
+```
+Deactivated the Brands (“Trusted by Industry Leaders”) section by commenting out its import and JSX in App.tsx. Code is preserved for easy reactivation.
+
+Let me know if you’d like a feature flag approach or to hide it conditionally via an env variable instead.
+
+---
+
+_**User**_
+
+deactivate the 500+
+Systems Installed
+
+350+
+Maintenance Clients
+
+98%
+Satisfaction Rate
+
+10+
+Years Experience
+
+section for now, 
+
+keep it there but lets deactivate it and make it not appair for now. 
+
+---
+
+_**Assistant**_
+
+Reading current `Hero.tsx` to safely comment out Numbers import and usage. 
 
 ---
 
