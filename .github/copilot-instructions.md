@@ -81,3 +81,4 @@ Feedback welcome: clarify areas (e.g., planned mobile menu logic, accessibility 
 - When deactivating a section, comment out its import and JSX usage in `App.tsx` to prevent it from rendering, preserving the code for easy reactivation.
 - When deactivating the Numbers section, comment out its import and JSX usage in `Hero.tsx` to prevent it from rendering, preserving the code for easy reactivation.
 - Deactivate the email sending from the top hero section by commenting out the relevant code in `Hero.tsx`.
+- The "Get Started" button in the navigation bar should have black text in light mode and white text in dark mode.
