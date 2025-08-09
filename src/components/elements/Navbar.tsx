@@ -1,5 +1,5 @@
 import { Container } from "../shared/Container";
-import logo from "/assets/icon.svg";
+import logo from "/public/assets/logo.jpg";
 import { NavItem } from "../shared/NavItem";
 import { BtnLink } from "../shared/BtnLink";
 import { useThemeStore } from "../../store/ThemeStore";
@@ -9,6 +9,7 @@ export const navItems = [
   { href: "#services", text: "Services" },
   { href: "#about-us", text: "About Us" },
   { href: "#pricing", text: "Pricing" },
+  { href: "#cta", text: "Contact" },
 ];
 
 export const Navbar = () => {
@@ -21,9 +22,9 @@ export const Navbar = () => {
           {/* Logo */}
           <div className="min-w-max inline-flex relative">
             <a href="/" className="relative flex items-center gap-3">
-              <img src={logo} alt="EdgeAI Logo" className="w-10 h-10" />
+              <img src={logo} alt="CJM Ventilation Logo" className="w-16 h-10" />
               <div className="inline-flex text-lg font-semibold text-heading-1">
-                EdgeAI
+                CJM Ventilation
               </div>
             </a>
           </div>

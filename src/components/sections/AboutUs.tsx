@@ -19,19 +19,18 @@ export const AboutUs = () => {
         </div>
 
         <div className="w-full md:w-7/12 lg:w-1/2 flex flex-col">
-          <Title> About Our AI Solution </Title>
+          <Title> About CJM Ventilation </Title>
           <Paragraph>
-            We are on a mission to empower businesses with transformative AI
-            technology. Our team of experts combines industry‑leading research
-            with innovative algorithms to deliver a platform that adapts to your
-            unique needs. Join us and lead the digital revolution in your
-            industry.
+            We deliver professional ventilation and HVAC solutions tailored to Toronto's
+            residential and commercial spaces. Our certified technicians focus on air quality,
+            efficiency, and long‑term system performance—so you enjoy healthier, cleaner air
+            and lower energy costs.
           </Paragraph>
 
           <div className="pt-8 grid grid-cols-1 sm:grid-cols-2 gap-4 max-w-3xl">
             <Info
               title="Mission"
-              description="Our mission is to use AI for the good of humanity and the planet."
+              description="Provide reliable, efficient ventilation systems that improve comfort & health."
             >
               <svg
                 xmlns="http://www.w3.org/2000/svg"
@@ -51,7 +50,7 @@ export const AboutUs = () => {
             </Info>
             <Info
               title="Vision"
-              description="Our vision is to drive business innovation and growth."
+              description="Be the most trusted HVAC partner for sustainable indoor air quality."
             >
               <svg
                 xmlns="http://www.w3.org/2000/svg"
